@@ -38,3 +38,10 @@ export const CustomTag: StoryObj<TextProps> = {
         as: 'strong'
     }
 }
+
+export const Testando: StoryObj<TextProps> = {
+  args: {
+      children: 'Testando CI',
+      as: 'h1'
+  }
+}
