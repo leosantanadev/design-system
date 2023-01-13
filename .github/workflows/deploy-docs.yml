@@ -5,9 +5,9 @@ on:
     branches:
       - main
 
-jobs:
-  permissions: read-all|write-all
-  
+permissions: read-all|write-all
+
+jobs:  
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
